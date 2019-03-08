@@ -17,11 +17,24 @@ public class export_5656 {
             W = Integer.parseInt(st.nextToken());
             H = Integer.parseInt(st.nextToken());
             int[][] map = new int[H][W];
-
+            for(int i = 0;i<H;i++){
+                st = new StringTokenizer(br.readLine());
+                for(int j = 0;j<W;j++){
+                    map[i][j] = Integer.parseInt(st.nextToken());
+                }
+            }
 
 
             System.out.println("#"+t+" ");
         }
 
     }
+    static void dfs(){
+        for(int i = 0;i<N;i++){
+            for(int j=0;j<W;j++){
+
+            }
+        }
+    }
+
 }
